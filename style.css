@@ -95,6 +95,7 @@ main{
     background-position: 140%;
     background-repeat: no-repeat;
     
+    
 }
 
 
@@ -122,8 +123,31 @@ main{
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
+    padding-top: 32px;
+    padding-bottom: 40px
     
 
+}
+
+.buttonsec1{
+    width: 240px;
+    height: 53px;
+    gap: 32px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    list-style: 114.99999999999999%;
+    color: #C1914B;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #C1914B;
+    transition: .16s;
+    cursor: pointer;
+    
+}
+
+.buttonsec1:hover{
+    background-color: #033766;
+    color: white;
 }
 
 @media(min-width: 1440px){
