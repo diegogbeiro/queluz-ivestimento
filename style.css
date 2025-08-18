@@ -56,7 +56,7 @@ li{
     font-style: medium;
     line-height: 100%;
     color: #545465;
-    transition: .16s;
+    transition: .2s;
     cursor: pointer;
 
 }
@@ -64,11 +64,18 @@ li{
 .li-contato{
     background-color: #033766;
     color: white;
+    transition: .16s;
+    cursor: pointer;
 }
 
 li:hover{
-    scale: 1.2;
-    font-size: 20px;
+    color: #C1914B;
+}
+
+.li-contato:hover{
+    background-color: #C1914B;
+    color: white;
+    
 }
 
 main{
@@ -85,7 +92,7 @@ main{
     align-items: center;
     text-align: center;
     background-image: url("Imagens/Modo_de_isolamento.svg");
-    background-position: right;
+    background-position: 140%;
     background-repeat: no-repeat;
     
 }
@@ -119,10 +126,42 @@ main{
 
 }
 
-@media(min-width: 1280px){
+@media(min-width: 1440px){
     header{
         width: 1280px;
         margin: 0 auto;
         
+    }
+
+    .sec1{
+        width: 100%;
+        height: 316px;
+        margin: 0 auto;
+        padding-top: 120px;
+        align-items: center;
+        text-align: center;
+        background-image: url("Imagens/Modo_de_isolamento.svg");
+        background-position: 122%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media(min-width: 1920px){
+    header{
+        width: 1280px;
+        margin: 0 auto;
+        
+    }
+
+    .sec1{
+        width: 100%;
+        height: 316px;
+        margin: 0 auto;
+        padding-top: 120px;
+        align-items: center;
+        text-align: center;
+        background-image: url("Imagens/Modo_de_isolamento.svg");
+        background-position: right;
+        background-repeat: no-repeat;
     }
 }
