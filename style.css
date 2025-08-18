@@ -15,11 +15,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 /* font-family: "Inter", sans-serif; */
 
+body{
+    margin: 0 auto;
+}
+
 header{
-    width: 100%;
+    width: 1216px;
     height: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     position: sticky;
     top: 0;
@@ -38,7 +42,7 @@ header{
 }
 
 nav{
-    width: 774px;
+    width: 744px;
     height: 36px;
 }
 
@@ -79,23 +83,21 @@ li:hover{
 }
 
 main{
-    width: 100%;
+    width: 1216px;
     margin: 0 auto;
+    background-image: url(Imagens/Modo_de_isolamento.svg);
+    background-position: 156% 130%;
+    background-repeat: no-repeat;
     
 }
 
 .sec1{
-    width: 100%;
+    width: 790px;
     height: 316px;
     margin: 0 auto;
     padding-top: 120px;
     align-items: center;
-    text-align: center;
-    background-image: url("Imagens/Modo_de_isolamento.svg");
-    background-position: 140%;
-    background-repeat: no-repeat;
-    
-    
+    text-align: center; 
 }
 
 
@@ -150,42 +152,66 @@ main{
     color: white;
 }
 
-@media(min-width: 1440px){
+
+@media(min-width: 1280px){
     header{
-        width: 1280px;
+        width: 1216px;
         margin: 0 auto;
         
     }
 
+     main{
+        width: 1440px;
+        background-position: 128% 132%;
+    }
+
+
     .sec1{
-        width: 100%;
+        width: 790px;
         height: 316px;
         margin: 0 auto;
         padding-top: 120px;
         align-items: center;
         text-align: center;
-        background-image: url("Imagens/Modo_de_isolamento.svg");
-        background-position: 122%;
-        background-repeat: no-repeat;
+    }
+}
+
+@media(min-width: 1440px){
+    header{
+        width: 1216px;
+        margin: 0 auto;
+        
+    }
+
+    .sec1{
+        width: 790px;
+        height: 316px;
+        margin: 0 auto;
+        padding-top: 120px;
+        align-items: center;
+        text-align: center;
     }
 }
 
 @media(min-width: 1920px){
     header{
-        width: 1280px;
+        width: 1216px;
         margin: 0 auto;
         
     }
 
+    main{
+        width: 1920px;
+        background-position: 100% 130%;
+    }
+
+   
     .sec1{
-        width: 100%;
+        width: 790px;
         height: 316px;
         margin: 0 auto;
         padding-top: 120px;
         align-items: center;
         text-align: center;
-        background-image: url("Imagens/Modo_de_isolamento.svg");
-        background-position: right;
-        background-repeat: no-repeat;
     }
 }
