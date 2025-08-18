@@ -160,9 +160,9 @@ main{
         
     }
 
-     main{
-        width: 1440px;
-        background-position: 128% 132%;
+    main{
+        width: 1280px;
+        background-position: 142% 132%;
     }
 
 
@@ -181,6 +181,11 @@ main{
         width: 1216px;
         margin: 0 auto;
         
+    }
+
+    main{
+        width: 1440px;
+        background-position: 128% 132%;
     }
 
     .sec1{
