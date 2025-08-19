@@ -27,6 +27,7 @@ header{
     align-items: center;
     position: sticky;
     top: 0;
+    background-color: #FFFFFF;
 }
 
 .logo{
@@ -97,7 +98,8 @@ main{
     margin: 0 auto;
     padding-top: 120px;
     align-items: center;
-    text-align: center; 
+    text-align: center;
+    padding-bottom: 120px; 
 }
 
 
@@ -152,6 +154,62 @@ main{
     color: white;
 }
 
+.sec2{
+    width: 1280px;
+    height: 630px;
+    margin: 0 auto;
+    background-image: url("Imagens/section2.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 16px;
+    margin-bottom: 120px;
+}
+
+.sec3{
+    width: 800px;
+    height: 261px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.h2sec3{
+    width: 800px;
+    height: 23px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #C1914B;
+    line-height: 115%;
+    letter-spacing: 24%;
+}
+
+.h1sec3{
+    width: 699px;
+    height: 102px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 44px;
+    font-weight: bold;
+    color: #033766;
+    line-height: 115%;
+    
+}
+
+.psec3{
+    width: 800px;
+    height: 72px;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #545465;
+    line-height: 150%;
+}
+
+
 
 @media(min-width: 1280px){
     header{
@@ -174,6 +232,18 @@ main{
         align-items: center;
         text-align: center;
     }
+
+    .sec2{
+        width: 1280px;
+        height: 630px;
+        margin: 0 auto;
+        background-image: url("Imagens/section2.png");
+        background-position: 50% 50%;
+        background-size: cover;
+        margin-bottom: 120px;
+    }
+
+
 }
 
 @media(min-width: 1440px){
@@ -195,6 +265,13 @@ main{
         padding-top: 120px;
         align-items: center;
         text-align: center;
+    }
+
+    .sec2{
+        width: 1440px;
+        height: 630px;
+        margin: 0 auto;
+        margin-bottom: 120px;
     }
 }
 
@@ -218,5 +295,16 @@ main{
         padding-top: 120px;
         align-items: center;
         text-align: center;
+    }
+
+    .sec2{
+        width: 1440px;
+        height: 630px;
+        margin: 0 auto;
+        background-image: url("Imagens/section2.png");
+        background-position: 50% 50%;
+        background-size: cover;
+        border-radius: 16px;
+        margin-bottom: 120px;
     }
 }
