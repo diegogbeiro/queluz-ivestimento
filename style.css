@@ -21,7 +21,7 @@ body{
 
 header{
     width: 1216px;
-    height: 100px;
+    height: 99px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,9 +86,10 @@ li:hover{
 main{
     width: 1216px;
     margin: 0 auto;
-    background-image: url(Imagens/Modo_de_isolamento.svg);
+    background-image: url("Imagens/Modo_de_isolamento.svg");
     background-position: 156% 130%;
     background-repeat: no-repeat;
+    border-top: solid 1px #D9D9D9;
     
 }
 
@@ -210,6 +211,7 @@ main{
 }
 
 .sec4{
+    width: 1212px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -234,13 +236,21 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 48px 30px;
+    background-color: white;
+    border: solid 1px #D9D9D9;
+    border-radius: 16px;
+    
+}
+
+.containersec4{
+    margin-right: 32px;
+    
 }
 
 .imgconteudosec4{
     width: 58px;
     height: 58px;
-    padding-bottom: 40px;
+    padding: 0 0 0 30px;
 }
 
 .h1sec4{
@@ -252,7 +262,7 @@ main{
     font-size: 24px;
     line-height: 115%;
     color: #C1914B;
-    padding-bottom: 24px;
+    padding: 48px 0 24px 30px;
 }
 
 .psec4{
@@ -263,6 +273,12 @@ main{
     font-size: 16px;
     line-height: 115%;
     color: #545465;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.lastsec4{
+    margin-left: -144px;
 }
 
 @media(min-width: 1280px){
@@ -297,6 +313,10 @@ main{
         margin-bottom: 120px;
     }
 
+    .psec4{
+        padding: 0 16px 0 16px;
+    }
+
 
 }
 
@@ -322,14 +342,14 @@ main{
     }
 
     .sec2{
-        width: 1440px;
+        width: 1280px;
         height: 630px;
         margin: 0 auto;
         margin-bottom: 120px;
     }
 
-    .sec4{
-        width: 1280px;
+    .psec4{
+        padding: 0 30px 0 30px;
     }
 }
 
