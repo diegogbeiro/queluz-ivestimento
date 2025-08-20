@@ -210,76 +210,9 @@ main{
     line-height: 150%;
 }
 
-.sec4{
-    width: 1212px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-}
 
-.minasec4{
-    width: 621px;
-    height: 826px;
-}
 
-#minasec4{
-    width: 621px;
-    height: 826px;
-    margin-top: 100px;
-}
 
-.conteudose4{
-    width: 280px;
-    height: 514px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;
-    border: solid 1px #D9D9D9;
-    border-radius: 16px;
-    
-}
-
-.containersec4{
-    margin-right: 32px;
-    
-}
-
-.imgconteudosec4{
-    width: 58px;
-    height: 58px;
-    padding: 0 0 0 30px;
-}
-
-.h1sec4{
-    width: 220px;
-    height: 56px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-style: bold;
-    font-size: 24px;
-    line-height: 115%;
-    color: #C1914B;
-    padding: 48px 0 24px 30px;
-}
-
-.psec4{
-    width: 220px;
-    font-family: "Inter", sans-serif;
-    font-weight: 700;
-    font-style: bold;
-    font-size: 16px;
-    line-height: 115%;
-    color: #545465;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.lastsec4{
-    margin-left: -144px;
-}
 
 @media(min-width: 1280px){
     header{
