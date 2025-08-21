@@ -12,8 +12,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 /* font-family: "Montserrat", sans-serif; */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-/* font-family: "Inter", sans-serif; */
 
 body{
     margin: 0 auto;
@@ -22,6 +20,8 @@ body{
 .cabecalho{
     width: 100%;
     height: 100px;
+    border-bottom: solid 1px rgba(84, 84, 101, 0.2);
+    
     
 }
 
@@ -32,10 +32,122 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin: 0 auto;
     
 }
 
 #logo{
     width: 72px;
     height: auto;
+}
+
+.navbar{
+    width: 744px;
+    height: 36px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+li{
+    width: auto;
+    height: 35px;
+    display: flex;
+    align-items: center; 
+    padding: 0 24px;
+    font-family: "Inter", sans-serif; 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: auto;  
+    color: #545465;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.contato{
+    background-color: #033766;
+    color: #FFFFFF;
+    transition: .4s;
+    cursor: pointer;
+}
+
+li:hover{
+    color: #C1914B;
+}
+
+.contato:hover{
+    background-color: #C1914B;
+    color: #FFFFFF;
+}
+
+main{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sec1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    
+}
+
+.container-sec1{
+    width: 790px;
+    height: 316px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.conteudo-sec1{
+    width: 790px;
+    height: 223px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.h1-sec1{
+    width: 790px;
+    height: 110px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #033766;
+    line-height: 115%;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.p-sec1{
+    width: 790px;
+    height: 81px;
+    
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #515157;
+    line-height: 1.6em;
+    
+    text-align: center;
+    padding-bottom: 40px;
+    
+}
+
+strong{
+    color: #515157;
 }
