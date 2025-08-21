@@ -94,9 +94,11 @@ main{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-top: 120px;
+    margin: 0 auto;
+    
     
 }
 
@@ -150,4 +152,23 @@ main{
 
 strong{
     color: #515157;
+}
+
+.button-sec1{
+    width: 240px;
+    height: 53px;
+    font-family: "Montserrat", sans-serif ;
+    font-size: 18px;
+    font-weight: bold;
+    color: #C1914B;
+    border: solid 2px #C1914B;
+    background-color: rgba(255, 255, 255, 0);
+    line-height: 115%;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.button-sec1:hover{
+    background-color:#C1914B ;
+    color: white;
 }
